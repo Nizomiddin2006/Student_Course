@@ -1,9 +1,8 @@
-CREATE TABLE kurs (
+CREATE TABLE course (
     id SERIAL PRIMARY KEY,          
-    fanlar VARCHAR(100) NOT NULL,     
-    bosqich VARCHAR(50) NOT NULL, 
-    oquvchi_soni INT DEFAULT 0,    
-    boshlangan_vaqti TIMESTAMP NOT NULL, 
-    tugash_vaqti TIMESTAMP NOT NULL
-    
+    subjects VARCHAR(100) NOT NULL,     
+    level VARCHAR(50) NOT NULL, 
+    student_count INT DEFAULT 0,    
+    start_time TIMESTAMP NOT NULL, 
+    end_time TIMESTAMP NOT NULL
 );

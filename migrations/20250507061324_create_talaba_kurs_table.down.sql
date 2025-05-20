@@ -1,1 +1,1 @@
-DROP TABLE IF EXISTS talaba_kurs;
+DROP TABLE IF EXISTS student_course;

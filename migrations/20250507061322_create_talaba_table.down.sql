@@ -1,1 +1,1 @@
-DROP TABLE IF EXISTS talaba;
+DROP TABLE IF EXISTS student;

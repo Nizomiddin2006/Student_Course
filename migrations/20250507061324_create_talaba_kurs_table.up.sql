@@ -1,6 +1,6 @@
-CREATE TABLE talaba_kurs (
-    talaba_id INT REFERENCES talaba(id) ON DELETE CASCADE, 
-    kurs_id INT REFERENCES kurs(id) ON DELETE CASCADE,      
-    kurs_vaqti TIMESTAMP DEFAULT CURRENT_TIMESTAMP,       
-    PRIMARY KEY (talaba_id, kurs_id)      
+CREATE TABLE student_course (
+    student_id INT REFERENCES student(id) ON DELETE CASCADE, 
+    course_id INT REFERENCES course(id) ON DELETE CASCADE,      
+    course_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP,       
+    PRIMARY KEY (student_id, course_id)      
 );
